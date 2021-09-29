@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>   Git Bash Command </h1>
+    <p> 
+       $ pwd             --// linux command present working directory
+       $ ls              --// linux command show files/folders list
+       $ git config --global user.name "amirul Islam"             --//first time user registration globaly. <br>
+       $ git config --global user.email "rafikhan97ctg@gmail.com"               --//first time user registration globaly. <br>
+       $ git config user.name <br>
+       $ git config user.email <br>
+       $ git status <br>
+       $ git inti <br>
+       $ git clone <br>
+       $ git add --a               --//adding all file in stage <br>
+       $ git commit -m "first commit" <br>
+       $ git add index.html <br>
+       $ rm -rf .git                --//remove folder (rm -rf) .git  remove all .git history <br>
+       $ git diff             --// its compare the working directory to staging area "if we modify a staged file" <br>
+       $ git diff --staged               --// its compare the previous commit to staging area. <br>
+       $ git commit -a -m "Direct commit"      --// directly commit the modified tracked files. <br>
+       $ git add .           --// adding to to the staging <br>
+       $ git rm third.txt     --// to remove file from git bash. <br>
+       $ git mv third.txt renameThird.txt     --// rename any file in git bash <br>
+       $ git rm --cached third.txt     --// untrack a file <br>
+       $ git log           --// showing all the commits and dates <br>
+       $ git log -p      --// showing all commit with all the detail information <br>
+       $ git log -p -3     --// showing the n (3) number of commits with all the details <br>
+       $ git --stat   --// showing all the commits with short and important infomation <br>
+       $ git log --pretty=oneline --// showing all the commits and each commi in one line <br>
+       $ git log --pretty=short <br>
+       $ git log --pretty=full <br>
+       $ git log --since=200.days <br>  --// showing commits information according time <br>
+       $ git log --since=23.weeks <br>
+       $ git log --since=2.months <br>
+       $ git log --since=1.year <br>
+       $ git log --prettyformat:"%h" -- %an --%ae    --// %h = "hash code";  %an ="author name"; %ae = "author email" <br>
+       $ git commit --amend       --// edit the recent commit <br>
+       $ git restore --staged jabed.html
+       $ git checkout -- jabed.html  or $ git restore jabed.html         --// return back from modified to last commit <br>
+       $ git checkout -f          --// (all modified files) return back from modified to last commit <br>
+       $ git config --global alias.putki status  --// with alias we can rename command line keyword <br>
+       $ git config --global alias.unstage 'restore --staged' <br>
+       $ git remote <br>
+       $ git remote -v <br>
+       $ git branch -m OLD-BRANCH-NAME NEW-BRANCH-NAME --// change the exsisting branch name <br>
+       $ git checkout -b develop   --// creating and switching in develop (NEW-BRANCH) <br>
+       $ git checkout master    --// switching to the master branch
+       
+
+
+
+       
+    </p>
+</body>
+</html>
