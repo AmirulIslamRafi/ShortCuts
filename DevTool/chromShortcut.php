@@ -15,3 +15,7 @@
 
 <!-- ctrl + shift + Q = Close chrom all window/tabs/everything -->
 <!-- ctrl + shist + delete = Clear browsing history -->
+
+<?php
+echo "The shortcuts of chrome browser";
+?>
